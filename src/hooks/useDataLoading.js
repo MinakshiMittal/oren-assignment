@@ -18,5 +18,5 @@ export const useDataLoading = () => {
         console.log(error);
       }
     })();
-  }, []);
+  }, [setUserData]);
 };
